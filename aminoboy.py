@@ -188,6 +188,8 @@ def getmess():
 				 
 				elif content == "/معلوماتي/id_الرسالة":
 			 	    subclient.send_message(chatId=chatId, message=messageId, messageType=0, replyTo=messageId)
-			 	    getmess()      
+			 	    getmess()
+			     
+			      
 		getmess()
-           getmess()
+getmess()
